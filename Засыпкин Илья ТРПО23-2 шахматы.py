@@ -11,7 +11,7 @@ BLACK = "black"
 class Game:
     #ive decided since the number of pieces is capped but the type of pieces is not (pawn transformations), I've already coded much of the modularity to support just using a dictionary of pieces
     def __init__(self):
-        self.playersturn = BLACK
+        self.playersturn = WHITE
         self.message = "this is where prompts will go"
         self.gameboard = {}
         self.placePieces()
